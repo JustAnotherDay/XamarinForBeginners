@@ -29,28 +29,28 @@ namespace XamarinForBeginners
             {
                 Name = "Hunter X Hunter",
                 Description = "loremlorem loremloremloremloremloremlorem",
-                ImageUrl = "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+                ImageUrl = @"hunterx.jpg"
             });
 
             Animes.Add(new Anime
             {
                 Name = "Naruto",
                 Description = "loremlorem loremloremloremloremloremlorem",
-                ImageUrl = "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+                ImageUrl = @"naruto.jpg"
             });
 
             Animes.Add(new Anime
             {
                 Name = "One Piece",
                 Description = "loremlorem loremloremloremloremloremlorem",
-                ImageUrl = "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+                ImageUrl = @"onepiece.jpg"
             });
 
             Animes.Add(new Anime
             {
                 Name = "One Punch",
                 Description = "loremlorem loremloremloremloremloremlorem",
-                ImageUrl = "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+                ImageUrl = @"onepunch.jpg"
             });
         }
 

@@ -8,7 +8,7 @@ namespace XamarinForBeginners.ViewModel
 {
     public class MainPageViewModel
     {
-        public ObservableCollection<Anime> Animes { get;set }
+        public ObservableCollection<Anime> Animes { get; set; }
 
         public MainPageViewModel()
         {
