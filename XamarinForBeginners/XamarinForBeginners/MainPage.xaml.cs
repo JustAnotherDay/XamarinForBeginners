@@ -21,11 +21,7 @@ namespace XamarinForBeginners
         {
             InitializeComponent();
 
-            AnimeSeeder();
-        }
 
-        public void AnimeSeeder()
-        {
             BindingContext = viewModel = new MainPageViewModel();
 
             Animes = new List<Anime>();
@@ -56,14 +52,18 @@ namespace XamarinForBeginners
                 Description = "loremlorem loremloremloremloremloremlorem",
                 ImageUrl = "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
             });
-
-            
-
         }
+
 
         private void Button_Clicked(object sender, EventArgs e)
         {
 
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            animeListView.ItemsSource = Animes;
         }
     }
 }

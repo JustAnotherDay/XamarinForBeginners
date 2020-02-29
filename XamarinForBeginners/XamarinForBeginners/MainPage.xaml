@@ -29,8 +29,7 @@
             </Grid>
             <Grid Grid.Row="1">
                 <ListView x:Name="animeListView"
-                          HasUnevenRows="True"
-                          ItemsSource="{Binding Animes}">
+                          HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
