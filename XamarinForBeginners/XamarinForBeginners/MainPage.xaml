@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:customEffects="clr-namespace:XamarinForBeginners.UI.Effects"
              x:Class="XamarinForBeginners.MainPage">
 
     <StackLayout>
@@ -24,7 +25,11 @@
 
                 <Entry x:Name="txtAnime"
                    Grid.Column="0"
-                   Placeholder="Search anime title"></Entry>
+                   Placeholder="Search anime title">
+                    <Entry.Effects>
+                        <customEffects:BorderLineEffect></customEffects:BorderLineEffect>
+                    </Entry.Effects>
+                </Entry>
                 <Button  Grid.Column="1" Text="Search" Clicked="Button_Clicked"></Button>
             </Grid>
             <Grid Grid.Row="1">
